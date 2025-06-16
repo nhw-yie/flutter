@@ -1,0 +1,8 @@
+flask_api/__pycache__/
+flask_api/instance/
+flask_api/.env
+
+# General
+*.log
+.DS_Store
+.env
