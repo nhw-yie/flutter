@@ -9,6 +9,7 @@
 
 # Hướng dẫn chạy project
  1. Cài đặt backend Flask
+```bash
 cd API_flash_2
 python -m venv venv
 venv\Scripts\activate  # (Windows) hoặc source venv/bin/activate (Linux/Mac)
@@ -16,12 +17,13 @@ pip install -r requirements.txt
 flask run --host=0.0.0.0 --port=8000
 
 copy địa chỉ ip và dán vào trong file apiService
-
+```
 2. Chạy ứng dụng flutter
+```bash
 cd nhom4
 flutter pub get
 flutter run
-
+```
 # Giao diện ứng dụng
 
 ### Màn hình đăng nhập
